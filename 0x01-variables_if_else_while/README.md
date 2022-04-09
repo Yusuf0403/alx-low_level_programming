@@ -1,1 +1,1 @@
-My first readme
+CONDITIONAL OPERATORS IN C
