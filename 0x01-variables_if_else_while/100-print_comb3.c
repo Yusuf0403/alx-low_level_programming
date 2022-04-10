@@ -42,4 +42,3 @@ d++;
 putchar('\n');
 return (0);
 }
-git add .
