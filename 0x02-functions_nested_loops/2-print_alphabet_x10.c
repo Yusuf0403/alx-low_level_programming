@@ -7,7 +7,6 @@ void print_alphabet_x10(void)
 {
 	char c;
 	int i = 0;
-rmrm
 	while (i < 10)
 	{
 		c = 'a';
@@ -19,4 +18,5 @@ rmrm
 		_putchar('\n');
 		i++;
 	}
+
 }
