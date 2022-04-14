@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: computes and prints the sum of all the multiples of 3 or
- * 5 below 1024 (excluded), followed by a new line
+ * Description: program that finds and prints the first 98 Fibonacci numbers,
+ * starting with 1 and 2, followed by a new line.
  * Return: 0
  */
 int main(void)
@@ -22,6 +22,7 @@ printf(", %lu", aft);
 aft += bef;
 bef = aft - bef;
 }
+
 bef1 = (bef / l);
 bef2 = (bef % l);
 aft1 = (aft / l);
@@ -31,10 +32,11 @@ for (i = 92; i < 99; ++i)
 printf(", %lu", aft1 + (aft2 / l));
 printf("%lu", aft2 % l);
 aft1 = aft1 + bef1;
-bef1 = aft1 - bef1
+bef1 = aft1 - bef1;
 aft2 = aft2 + bef2;
 bef2 = aft2 - bef2;
 }
+
 printf("\n");
 return (0);
 }
