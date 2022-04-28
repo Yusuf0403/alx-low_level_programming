@@ -37,6 +37,7 @@ int compare(char *s, int l)
 	{
 		return (0);
 	}
+
 }
 
 /**
@@ -48,8 +49,7 @@ int compare(char *s, int l)
 int is_palindrome(char *s)
 {
 	int l;
-	
+
 	l = long_1(s);
 	return (compare(s, l));
 }
-
